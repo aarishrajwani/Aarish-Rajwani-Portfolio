@@ -151,6 +151,15 @@
 
   
 }
+
+.contact-info a {
+  color: white; /* Change this to your desired color */
+}
+
+.contact-link:visited {
+  color: inherit; /* Keeps the color the same as the unvisited link */
+}
+
 #custom-timeline-text {
       list-style-type: circle; /* Change bullet points to circles */
       padding-left: 20px; /* Ensure there is padding to show the bullets */
@@ -161,6 +170,8 @@
       color: white; /* Ensure the list item text is white */
       display: list-item; /* Ensure the list item is displayed as a list item */
     }
+
+
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
